@@ -50,7 +50,7 @@
 
 /* Box Model */
 
-	*, *:before, *:after {
+	*, 0*:before, *:after {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -1730,6 +1730,8 @@
 
 /* Image */
 
+	
+
 	.image {
 		position: relative;
 		display: inline-block;
@@ -1990,7 +1992,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #224B97;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2012,7 +2014,7 @@
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #76BAEF;
 		}
 
 		input[type="button"].alt,
@@ -2096,7 +2098,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/code.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
